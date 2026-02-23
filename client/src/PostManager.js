@@ -7,7 +7,7 @@ function PostManager() {
   const [content, setContent] = useState("");
   const [editId, setEditId] = useState(null);
 
-  const API = "http://localhost:5000/api/posts";
+  const API = "https://mern-notes-7.onrender.com/api/auth/login";
   const token = localStorage.getItem("token");
 
   // Fetch Posts
